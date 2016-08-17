@@ -11,9 +11,13 @@ Installation
 Prezto will work with any recent release of Zsh, but the minimum required
 version is 4.3.17.
 
-  1. Launch Zsh:
+  1. Install Zsh:
 
-        zsh
+        brew install zsh
+  
+  1.b. Add /usr/local/bin/zsh to where it tells you to add it
+  
+  1.c. zsh
 
   2. Clone the repository:
 
@@ -29,7 +33,7 @@ version is 4.3.17.
 
   4. Set Zsh as your default shell:
 
-        chsh -s /bin/zsh
+        chsh -s /usr/local/bin/zsh
 
   5. Open a new Zsh terminal window or tab.
 
